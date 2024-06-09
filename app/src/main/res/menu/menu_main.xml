@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_maps"
+        android:icon="@drawable/ic_location_on_white_24"
+        android:title="@string/button_maps_desc"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_translate_white_24"
+        android:title="@string/button_setting_desc"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout_white_24"
+        android:title="@string/button_logout_desc"
+        app:showAsAction="ifRoom" />
+</menu>
