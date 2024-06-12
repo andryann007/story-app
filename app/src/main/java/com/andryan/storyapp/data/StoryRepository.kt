@@ -2,6 +2,7 @@ package com.andryan.storyapp.data
 
 import android.content.ContentValues.TAG
 import androidx.lifecycle.LiveData
+import androidx.lifecycle.liveData
 import androidx.paging.ExperimentalPagingApi
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
@@ -59,8 +60,8 @@ class StoryRepository @Inject constructor(
         }
     }
 
-    suspend fun getStoryDetail(token: String, id: String): Flow<Result<StoryDetailResponse>> =
-        flow {
+    suspend fun getStoryDetail(token: String, id: String): LiveData<Result<StoryDetailResponse>> =
+        liveData {
             wrapEspressoIdlingResource {
                 emit(Result.Loading)
                 try {

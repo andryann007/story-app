@@ -5,10 +5,6 @@
         <item name="colorPrimaryVariant">@color/sky_500</item>
         <item name="colorSecondary">@color/sky_300</item>
         <item name="colorSecondaryVariant">@color/sky_300</item>
-
-        <item name="android:windowActivityTransitions">true</item>
-        <item name="android:windowEnterTransition">@android:transition/slide_top</item>
-        <item name="android:windowExitTransition">@android:transition/slide_bottom</item>
     </style>
 
     <style name="Theme.StoryApp" parent="Base.Theme.StoryApp" />

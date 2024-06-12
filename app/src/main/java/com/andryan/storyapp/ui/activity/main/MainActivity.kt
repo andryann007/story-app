@@ -132,6 +132,7 @@ class MainActivity : AppCompatActivity() {
                             ).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
                                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                         )
+                        finish()
                     }, DELAY_TIME)
                 }
             }.show()

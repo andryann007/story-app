@@ -61,10 +61,12 @@ class DetailActivity : AppCompatActivity() {
                         val description = result.data.story.description
                         val photoUrl = result.data.story.photoUrl
 
-                        binding.tvDetailName.text = name
-                        binding.tvDetailDate.text = date
-                        binding.tvDetailDescription.text = description
-                        Picasso.get().load(photoUrl).noFade().into(binding.ivDetailPhoto)
+                        with(binding) {
+                            tvDetailName.text = name
+                            tvDetailDate.text = date
+                            tvDetailDescription.text = description
+                            Picasso.get().load(photoUrl).noFade().into(ivDetailPhoto)
+                        }
                     }
 
                     is Result.Error -> {

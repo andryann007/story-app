@@ -1,6 +1,6 @@
 package com.andryan.storyapp.data.remote.retrofit
 
-import androidx.media3.common.BuildConfig
+import com.andryan.storyapp.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -11,7 +11,7 @@ class ApiConfig {
         var BASE_URL = ""
 
         fun getApiService(): ApiService {
-            BASE_URL = com.andryan.storyapp.BuildConfig.BASE_URL
+            BASE_URL = BuildConfig.BASE_URL
 
             val loggingInterceptor = if (BuildConfig.DEBUG) {
                 HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)

@@ -2,7 +2,6 @@ package com.andryan.storyapp.ui.activity.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.asLiveData
 import androidx.paging.ExperimentalPagingApi
 import com.andryan.storyapp.data.AuthRepository
 import com.andryan.storyapp.utils.Result
@@ -20,7 +19,7 @@ class DetailViewModel @Inject constructor(
     private val authRepository: AuthRepository
 ) : ViewModel() {
     suspend fun getStoryDetail(token: String, id: String): LiveData<Result<StoryDetailResponse>> =
-        storyRepository.getStoryDetail(token, id).asLiveData()
+        storyRepository.getStoryDetail(token, id)
 
     fun getSession(): Flow<UserModel> = authRepository.getSession()
 }
