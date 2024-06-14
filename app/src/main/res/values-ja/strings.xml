@@ -23,7 +23,9 @@
     <string name="text_register">登録</string>
     <string name="text_login">アクセス</string>
     <string name="register_success_message">登録プロセスが成功し、ログイン ページに進みます!!!</string>
-    <string name="login_success_message">ログインプロセスが成功し、メインページに進みます!!!</string>
+    <string name="register_error_message">アカウントの登録に失敗しました。後でもう一度試してください !!!</string>
+    <string name="login_success_message">ログインプロセスが成功し、メインページに行きます!!!</string>
+    <string name="login_error_message">ログインに失敗しました。後でもう一度試してください。!!!</string>
     <string name="permission_granted_message">許可リクエストが受け入れられました!!!</string>
     <string name="permission_denied_message">権限リクエストが拒否されました!!!</string>
     <string name="logout_title">ログアウトを確認する</string>
@@ -31,9 +33,12 @@
     <string name="negative_button_text">いいえ</string>
     <string name="positive_button_text">はい</string>
     <string name="share_message">このストーリーを次の人と共有します:</string>
+    <string name="detail_error_message">ストーリーの詳細を取得できませんでした。後でもう一度お試しください。!!!</string>
     <string name="gallery_error_message">メディアが選択されていません!!!</string>
     <string name="camera_error_message">写真は撮影されませんでした!!!</string>
     <string name="upload_success_message">ストーリーのアップロードが成功しました。ホームページにリダイレクトされます!!!</string>
+    <string name="upload_error_message">ストーリーのアップロードに失敗しました。後でもう一度お試しください。!!!</string>
+    <string name="maps_error_message">位置情報を含むストーリーの取得に失敗しました。後でもう一度お試しください。!!!</string>
     <string name="logout_success_message">ログアウトプロセスが成功し、ようこそページにリダイレクトされます!!!</string>
     <string name="button_share_desc">共有アイコン</string>
     <string name="image_story">フォトノベル</string>

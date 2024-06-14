@@ -40,6 +40,7 @@ class MainActivityTest {
 
     @Before
     fun setUp() {
+        hiltRule.inject()
         IdlingRegistry.getInstance().register(EspressoIdlingResource.countingIdlingResource)
     }
 

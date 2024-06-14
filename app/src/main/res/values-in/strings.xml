@@ -23,7 +23,9 @@
     <string name="text_register">Registrasi</string>
     <string name="text_login">Login</string>
     <string name="register_success_message">Proses registrasi sukses !!!</string>
+    <string name="register_error_message">Gagal untuk registrasi akun, harap coba lagi nanti !!!</string>
     <string name="login_success_message">Proses login sukses, mengarahkan ke halaman utama !!!</string>
+    <string name="login_error_message">Gagal untuk login, harap coba lagi nanti !!!</string>
     <string name="permission_granted_message">Permintaan izin diterima !!!</string>
     <string name="permission_denied_message">Permintaan izin ditolak !!!</string>
     <string name="logout_title">Konfirmasi Logout</string>
@@ -31,9 +33,12 @@
     <string name="negative_button_text">Tidak</string>
     <string name="positive_button_text">Iya</string>
     <string name="share_message">Bagikan story ini dengan :</string>
+    <string name="detail_error_message">Gagal untuk memuat detail story, harap coba lagi nanti !!!</string>
     <string name="gallery_error_message">Tidak ada media yang dipilih !!!</string>
     <string name="camera_error_message">Tidak ada foto yang diambil !!!</string>
     <string name="upload_success_message">Upload story sukses, mengarahkan ke halaman Main !!!</string>
+    <string name="upload_error_message">Gagal untuk upload story, harap coba lagi nanti !!!</string>
+    <string name="maps_error_message">Gagal untuk memuat story dengan lokasi, harap coba lagi nanti !!!</string>
     <string name="logout_success_message">Proses logout sukses, mengarahkan ke halaman Welcome !!!</string>
     <string name="button_share_desc">Icon Share</string>
     <string name="image_story">Foto Story</string>

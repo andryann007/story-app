@@ -60,7 +60,7 @@ class StoryRepository @Inject constructor(
         }
     }
 
-    suspend fun getStoryDetail(token: String, id: String): LiveData<Result<StoryDetailResponse>> =
+    fun getStoryDetail(token: String, id: String): LiveData<Result<StoryDetailResponse>> =
         liveData {
             wrapEspressoIdlingResource {
                 emit(Result.Loading)

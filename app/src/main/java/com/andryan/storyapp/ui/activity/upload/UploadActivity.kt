@@ -261,7 +261,7 @@ class UploadActivity : AppCompatActivity() {
 
                                     Snackbar.make(
                                         binding.root,
-                                        result.error,
+                                        resources.getString(R.string.upload_error_message),
                                         Snackbar.LENGTH_SHORT
                                     ).show()
 

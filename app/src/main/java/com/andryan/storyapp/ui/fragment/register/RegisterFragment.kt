@@ -181,7 +181,7 @@ class RegisterFragment : Fragment() {
                         binding?.let {
                             Snackbar.make(
                                 it.root,
-                                result.error,
+                                resources.getString(R.string.register_error_message),
                                 Snackbar.LENGTH_SHORT
                             ).show()
                         }

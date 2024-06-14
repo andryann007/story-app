@@ -23,7 +23,9 @@
     <string name="text_register">등록</string>
     <string name="text_login">로그인</string>
     <string name="register_success_message">등록이 성공했습니다!!!</string>
+    <string name="register_error_message">계정 등록에 실패했습니다. 나중에 다시 시도해 주세요!!!</string>
     <string name="login_success_message">로그인 프로세스가 성공하여 메인 활동으로 리디렉션됩니다!!!</string>
+    <string name="login_error_message">로그인에 실패했습니다. 나중에 다시 시도해 주세요!!!</string>
     <string name="permission_granted_message">권한 요청이 승인되었습니다!!!</string>
     <string name="permission_denied_message">권한 요청이 거부되었습니다!!!</string>
     <string name="logout_title">로그아웃 확인</string>
@@ -31,9 +33,12 @@
     <string name="negative_button_text">아니요</string>
     <string name="positive_button_text">예</string>
     <string name="share_message">이 스토리를 다음과 공유하세요:</string>
+    <string name="detail_error_message">스토리 세부정보를 가져오지 못했습니다. 나중에 다시 시도해 주세요!!!</string>
     <string name="gallery_error_message">미디어를 선택하지 않았습니다!!!</string>
     <string name="camera_error_message">사진이 촬영되지 않았습니다!!!</string>
     <string name="upload_success_message">스토리 업로드가 성공하여 메인 활동으로 리디렉션됩니다!!!</string>
+    <string name="upload_error_message">스토리 업로드에 실패했습니다. 나중에 다시 시도해 주세요!!!</string>
+    <string name="maps_error_message">위치가 포함된 스토리를 가져오지 못했습니다. 나중에 다시 시도해 주세요!!!</string>
     <string name="logout_success_message">로그아웃 프로세스가 성공하여 환영 활동으로 리디렉션됩니다!!!</string>
     <string name="button_share_desc">공유 아이콘</string>
     <string name="image_story">스토리 사진</string>

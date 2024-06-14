@@ -167,10 +167,11 @@ class LoginFragment : Fragment() {
 
                             Handler(Looper.getMainLooper()).postDelayed({
                                 startActivity(
-                                    Intent(context, MainActivity::class.java)
+                                    Intent(requireActivity(), MainActivity::class.java)
                                         .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
                                         .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                                 )
+                                requireActivity().finish()
                             }, DELAY_TIME)
                         }
 
@@ -180,7 +181,7 @@ class LoginFragment : Fragment() {
                             binding?.root?.let {
                                 Snackbar.make(
                                     it,
-                                    result.error,
+                                    resources.getString(R.string.login_error_message),
                                     Snackbar.LENGTH_SHORT
                                 ).show()
                             }

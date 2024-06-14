@@ -22,8 +22,10 @@
     <string name="text_fill_data">Fill Data First</string>
     <string name="text_register">Register</string>
     <string name="text_login">Login</string>
+    <string name="register_error_message">Fail to register account, please try again later !!!</string>
     <string name="register_success_message">Registration process is success !!!</string>
     <string name="login_success_message">Login process is success, redirecting to Main Activity !!!</string>
+    <string name="login_error_message">Fail to login, please try again later !!!</string>
     <string name="permission_granted_message">Permission request granted !!!</string>
     <string name="permission_denied_message">Permission request denied !!!</string>
     <string name="logout_title">Logout confirmation</string>
@@ -31,9 +33,12 @@
     <string name="negative_button_text">No</string>
     <string name="positive_button_text">Yes</string>
     <string name="share_message">Share this story with :</string>
+    <string name="detail_error_message">Fail to fetched story detail, please try again later !!!</string>
     <string name="gallery_error_message">No media selected !!!</string>
     <string name="camera_error_message">No photo taken !!!</string>
     <string name="upload_success_message">Story upload is success, redirecting to Main Activity !!!</string>
+    <string name="upload_error_message">Fail to upload story, please try again later !!!</string>
+    <string name="maps_error_message">Fail to fetched story with location, please try again later !!!</string>
     <string name="logout_success_message">Logout process is success, redirecting to Welcome Activity !!!</string>
     <string name="button_share_desc">Share Icon</string>
     <string name="image_story">Story Photo</string>

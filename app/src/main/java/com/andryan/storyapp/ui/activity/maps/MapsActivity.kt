@@ -151,7 +151,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                         binding.root.let {
                             Snackbar.make(
                                 it,
-                                result.error,
+                                resources.getString(R.string.maps_error_message),
                                 Snackbar.LENGTH_SHORT
                             ).show()
                         }

@@ -18,7 +18,7 @@ class DetailViewModel @Inject constructor(
     private val storyRepository: StoryRepository,
     private val authRepository: AuthRepository
 ) : ViewModel() {
-    suspend fun getStoryDetail(token: String, id: String): LiveData<Result<StoryDetailResponse>> =
+    fun getStoryDetail(token: String, id: String): LiveData<Result<StoryDetailResponse>> =
         storyRepository.getStoryDetail(token, id)
 
     fun getSession(): Flow<UserModel> = authRepository.getSession()

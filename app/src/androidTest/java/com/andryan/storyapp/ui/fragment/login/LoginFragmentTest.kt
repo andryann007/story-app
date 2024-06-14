@@ -39,6 +39,7 @@ class LoginFragmentTest {
 
     @Before
     fun setUp() {
+        hiltRule.inject()
         mockWebServer.start(8080)
         ApiConfig.BASE_URL = "http://127.0.0.1:8080/"
         IdlingRegistry.getInstance().register(EspressoIdlingResource.countingIdlingResource)

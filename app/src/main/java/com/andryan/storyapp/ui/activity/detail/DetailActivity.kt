@@ -75,7 +75,7 @@ class DetailActivity : AppCompatActivity() {
                         binding.root.let {
                             Snackbar.make(
                                 it,
-                                result.error,
+                                resources.getString(R.string.detail_error_message),
                                 Snackbar.LENGTH_SHORT
                             ).show()
                         }
